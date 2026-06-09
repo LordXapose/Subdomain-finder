@@ -5,14 +5,14 @@ Combines **passive** (public APIs), **active** (brute‑force wordlist), and **p
 
 ## Features
 
-- 🔍 **Passive Discovery** – crt.sh, AlienVault OTX, Wayback Machine (extensible)
-- ⚡ **Active Brute‑Force** – custom wordlists with concurrent DNS queries
-- 🔄 **Permutation Engine** – generates new subdomains by combining known ones (e.g., `admin-api`, `dev-portal`)
-- 🚫 **Wildcard Detection** – automatically identifies and filters wildcard DNS records
-- 🌐 **Custom DNS Resolvers** – use your own servers (e.g., `8.8.8.8`, `1.1.1.1`)
-- 📁 **Multiple Outputs** – TXT (plain list), JSON, CSV (subdomains + IPs)
-- ⏱️ **Configurable Concurrency** – control the number of simultaneous DNS lookups
-- 🐍 **Pure Python 3** – asyncio + aiohttp for high performance
+- Passive Discovery – crt.sh, AlienVault OTX, Wayback Machine (extensible)
+- Active Brute‑Force – custom wordlists with concurrent DNS queries
+- Permutation Engine – generates new subdomains by combining known ones (e.g., `admin-api`, `dev-portal`)
+- Wildcard Detection – automatically identifies and filters wildcard DNS records
+- Custom DNS Resolvers – use your own servers (e.g., `8.8.8.8`, `1.1.1.1`)
+- Multiple Outputs – TXT (plain list), JSON, CSV (subdomains + IPs)
+- Configurable Concurrency – control the number of simultaneous DNS lookups
+- Pure Python 3 – asyncio + aiohttp for high performance
 
 ## Installation (Kali Linux)
 
